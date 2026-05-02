@@ -26,6 +26,3 @@ booking = Booking(
     nights=3,
     rate_per_night=100.0
 )
-
-print(booking.total_amount)
-print(booking.model_dump())
